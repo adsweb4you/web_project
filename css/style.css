@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://images.unsplash.com/photo-1639594396792-33b069667238?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1894&q=80");
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+section h2 {
+  font-size: 25px;
+  padding: 10px 15px;
+  color: #fff;
+}
+section .contact_sec {
+  width: 35%;
+  padding: 20px;
+}
+section .contact_sec .information_dv {
+  padding: 15px;
+  color: #fff;
+  line-height: 23px;
+}
+section .contact_sec .information_dv .opacity_ht {
+  color: #c5c5c5;
+  opacity: 0.6;
+  text-transform: uppercase;
+  line-height: 30px;
+  font-size: 16px;
+}
+section .contact_sec .information_dv .bi {
+  float: left;
+  padding: 0px 10px 0px 0px;
+  font-size: 16px;
+  color: #ffc400;
+}
+section .contact_sec .information_dv .info {
+  cursor: pointer;
+  transition: 0.4s;
+}
+section .contact_sec .information_dv .info:hover {
+  color: #a6ff00;
+  transition: 0.4s;
+}
+section form {
+  width: 22%;
+  height: auto;
+}
+section form .inside_info {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 50px;
+  background: #fff;
+  border-radius: 6px;
+}
+section form .forms_border {
+  border-style: none;
+  border: 1px solid #e0e0e0;
+}
+section form .header_for_forms h1 {
+  padding: 0px 0px 20px 0px;
+}
+section form .col-2 {
+  width: 100%;
+  padding: 5px 0px;
+}
+section form .col-2 input {
+  width: 100%;
+  padding: 12px;
+}
+section form select {
+  width: 100%;
+  padding: 12px;
+  cursor: pointer;
+}
+section form .message_box {
+  padding: 5px 0px;
+}
+section form .message_box textarea {
+  padding: 10px 14px;
+}
+section form button {
+  padding: 13px 15px;
+  border-style: none;
+  border-radius: 4px;
+  background: #2d61a5;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+section form button:hover {
+  background: #0d68df;
+  transition: 0.3s;
+}
+@media (max-width: 1500px) {
+  section section {
+    width: 100%;
+    height: auto;
+  }
+  section form {
+    width: 360px;
+    padding: 40px;
+  }
+  section form textarea {
+    width: 180px;
+  }
+}
+@media (max-width: 1500px) and (max-width: 800px) {
+  section .contact_sec {
+    width: 100%;
+    padding: 40px;
+    font-size: 12px;
+  }
+  section .contact_sec h2 {
+    font-size: 20px;
+    padding: 8px 15px;
+    color: #fff;
+  }
+}
+@media (max-width: 1500px) and (max-width: 600px) {
+  section .contact_sec {
+    display: none;
+  }
+  section .btn {
+    padding-left: 31px;
+  }
+}
+@media (max-width: 1500px) and (max-width: 320px) {
+  section section {
+    width: 100%;
+    padding: 0;
+  }
+  section form {
+    padding: 0 20px;
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
